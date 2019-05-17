@@ -5,14 +5,14 @@ Simple utility used to scan a directory for possibly dylib hijacks.
 ## Usage
 
 ```
-pip install -r requirements.txt
-python scan.py
-
+$ pip install -r requirements.txt
+$ python scan.py
+Usage: python scan.py <directory>
 ```
 
 Example usage:
 ```
-python scan.py "/Library/Application Support/"
+$ python scan.py "/Library/Application Support/"
 ```
 
 Output is simply a pretty print of a dict containing the vulnerable file and the libraries that *may* be susceptible to hijacking.
