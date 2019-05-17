@@ -12,8 +12,10 @@ python scan.py
 
 Example usage:
 ```
-
+python scan.py "/Library/Application Support/"
 ```
+
+Output is simply a pretty print of a dict containing the vulnerable file and the libraries that *may* be susceptible to hijacking.
 
 ## False Positives
 
